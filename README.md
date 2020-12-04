@@ -1,0 +1,2 @@
+# Bank_Account
+In this project I will be practicing the implementation static variables and methods, as well as practicing instance methods and getter and setters. The concept of this project will be to create a program that work's under the same idea as a Bank Account with some of the common account transactions that normally occur such as displaying your account number, checking and savings amount, total amount. Also methods to invoke, such as depositing a check, checking your balance, and withdrawing money.

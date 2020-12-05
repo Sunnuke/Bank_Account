@@ -44,13 +44,17 @@ public class BankAccount {
 		totalMoneyStored -= amount;
 		return amount;
 	}
+	
+	public double accountTotal() {
+		return getCheckingBalance() + getSavingsBalance();
+	}
 
 //	Checking Balance
 	public double getCheckingBalance() {
 		return checkingBalance;
 	}
 
-	public void setCheckingBalance(double checkingBalance) {
+	private void setCheckingBalance(double checkingBalance) {
 		this.checkingBalance += checkingBalance;
 	}
 
@@ -59,7 +63,7 @@ public class BankAccount {
 		return savingsBalance;
 	}
 
-	public void setSavingsBalance(double savingsBalance) {
+	private void setSavingsBalance(double savingsBalance) {
 		this.savingsBalance += savingsBalance;
 	}
 }
